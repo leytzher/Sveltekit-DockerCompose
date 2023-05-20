@@ -4,7 +4,7 @@ This is a template for a Sveltekit project that can be run in a Docker container
 
 The project uses Skeleton.ui (https://www.skeleton.dev/docs/get-started) for styling.
 
-# How this template was created
+### How this template was created
 
 Create Sveltekit project using the Skeleton cli:
 ```
