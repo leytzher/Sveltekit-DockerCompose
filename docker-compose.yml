@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  sveltekit-template:
+    build:
+      context: ./sveltekit-template
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    restart: on-failure
+    volumes:
+      - './sveltekit-template:/app'
+
+
+
+
